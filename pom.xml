@@ -57,7 +57,8 @@
                             <goal>perform</goal>
                         </goals>
                         <configuration>
-                            <pomFileName>./SFG-Pet-Clinic/pom.xml</pomFileName>
+                            <pomFileName>../pet-clinic-data/pom.xml</pomFileName>
+                            <pomFileName>../pet-clinic-web/pom.xml</pomFileName>
                         </configuration>
                     </execution>
                 </executions>
