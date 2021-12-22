@@ -50,18 +50,6 @@
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>default</id>
-                        <goals>
-                            <goal>perform</goal>
-                        </goals>
-                        <configuration>
-                            <pomFileName>./pet-clinic-data/pom.xml</pomFileName>
-                            <pomFileName>./pet-clinic-web/pom.xml</pomFileName>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
