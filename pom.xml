@@ -55,8 +55,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:git://github.com:massenzio-p/SFG-Pet-Clinic.git</connection>
-        <developerConnection>scm:git:git://github.com:massenzio-p/SFG-Pet-Clinic.git</developerConnection>
+        <connection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</connection>
+        <developerConnection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</developerConnection>
         <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
 </project>
