@@ -17,12 +17,13 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>SFG Pet Clinic</name>
     <description>SFG Pet Clinic</description>
 
     <properties>
         <java.version>17</java.version>
+        <project.scm.id>github.com</project.scm.id>
     </properties>
 
     <build>
@@ -55,8 +56,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</connection>
+<!--        <connection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</connection>-->
         <developerConnection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</developerConnection>
-        <tag>sfg-pet-clinic-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
