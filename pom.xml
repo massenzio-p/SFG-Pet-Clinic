@@ -16,7 +16,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>SFG Pet Clinic</name>
     <description>SFG Pet Clinic</description>
 
@@ -42,7 +42,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.0.0-M4</version>
+                <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -60,6 +60,6 @@
     <scm>
         <connection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</connection>
         <developerConnection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
 </project>
