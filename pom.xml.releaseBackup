@@ -53,6 +53,13 @@
                         <checkModificationExclude>release.properties</checkModificationExclude>
                     </checkModificationExcludes>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-scm-plugin</artifactId>
+                        <version>1.12.0</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
@@ -60,6 +67,6 @@
     <scm>
 <!--        <connection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</connection>-->
         <developerConnection>scm:git:git@github.com:massenzio-p/SFG-Pet-Clinic.git</developerConnection>
-        <tag>sfg-pet-clinic-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
