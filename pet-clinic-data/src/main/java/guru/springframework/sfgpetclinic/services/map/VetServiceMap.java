@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.Set;
 
 @Service
-public class VetService extends AbstractMapService<Vet, Long> implements guru.springframework.sfgpetclinic.services.VetService {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements guru.springframework.sfgpetclinic.services.VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
